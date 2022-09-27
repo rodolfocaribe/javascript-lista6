@@ -12,7 +12,7 @@ function nervoso() {
 }
 function alegre() {
   document.getElementById("imagem").src = "img1/alegre.png";
-  nome = prompt("Por favor, digite seu nome: ");
+  let nome = prompt("Por favor, digite seu nome: ");
   document.getElementById("descricao").innerHTML = `${nome}, vamos brincar?`;
 }
 function maisVotado() {
