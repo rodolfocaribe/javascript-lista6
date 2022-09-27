@@ -1,0 +1,38 @@
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+}
+.flex-box {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border: 1px solid black;
+  padding: 25px;
+  background-color: lightgreen;
+}
+
+.flex-box:hover {
+  background-color: lightblue;
+}
+.maisVotado {
+  background-color: yellow;
+}
+
+h3,
+p {
+  text-align: center;
+}
+.numeroGrande {
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+}
+.negrito {
+  font-weight: bold;
+}
