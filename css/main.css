@@ -1,9 +1,22 @@
-.flex-box_Ex1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 35px;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+.emojiContainer {
+  position: absolute;
+  width: 150px;
+  height: 172px;
+  top:50%;
+  left:50%;
+  margin: -86px auto auto -75px;
+}
+.emojiContainer p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  }
+
 
 img {
   width: 200px;
