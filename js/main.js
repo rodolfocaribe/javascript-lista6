@@ -15,13 +15,14 @@ function alegre() {
   let nome = prompt("Por favor, digite seu nome: ");
   document.getElementById("descricao").innerHTML = `${nome}, vamos brincar?`;
 }
-function maisVotado() {
+/*function maisVotado() {
   let max = candidato1;
   if (candidato2 > max) max = candidato2;
   if (candidato3 > max) max = candidato3;
   if (candidato4 > max) max = candidato4;
   return max;
 }
+*/
 
 candidato1 = 0;
 candidato2 = 0;
